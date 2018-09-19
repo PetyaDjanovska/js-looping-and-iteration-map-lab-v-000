@@ -12,3 +12,7 @@ function nameToAttributes(drivers) {
   });
   return driverObjects;
 }
+
+function attributesToPhrase(drivers) {
+  
+}
