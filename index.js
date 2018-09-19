@@ -9,5 +9,6 @@ function nameToAttributes(drivers) {
     const firstName = names.slice(0, str.indexOf(' '));
     const lastName = names.slice(str.indexOf(' ')+1, str.length);
     return {firstName: firstName, lastName: lastName};
+    debugger;
   });
 }
