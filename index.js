@@ -1,4 +1,4 @@
 // Code your solution in this file.
 function lowerCaseDrivers(drivers) {
-  drivers.map(dr => dr.toLowerCase);
+  const driversLowerCase = drivers.map(dr => dr.toLowerCase);
 }
