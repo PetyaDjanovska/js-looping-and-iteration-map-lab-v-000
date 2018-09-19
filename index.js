@@ -8,6 +8,6 @@ function nameToAttributes(drivers) {
     drivers.map(function(names){
     const firstName = names.slice(0, str.indexOf(' '));
     const lastName = names.slice(str.indexOf(' ')+1, str.length);
-    return {fisrtName: firstName, lastName: lastName}
+    return {firstName: firstName, lastName: lastName}
   }
 }
