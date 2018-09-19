@@ -5,8 +5,10 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-    const driverObjects = drivers.map(
+    const driverObjects = drivers.map(function(names){
     const firstName = names.slice(0, names.indexOf(' '));
     const lastName = names.slice(names.indexOf(' ')+1, names.length);
-    return {firstName: firstName, lastName: lastName})
+    return {firstName: firstName, lastName: lastName};
+  });
+  return driverObjects;
 }
